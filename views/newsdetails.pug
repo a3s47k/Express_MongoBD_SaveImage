@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	h1= data.title
+	p=data.desc
+	p=data.img[0]
+	p=data.img[1]
+	img(src=data.img[0], alt="")
+	img(src=data.img[1], alt="")
+	
+
